@@ -1,6 +1,5 @@
 "use client"
 
-import { useState, useEffect } from "react"
 import { motion } from "motion/react"
 import { ArrowRight, Heart } from "lucide-react"
 
@@ -116,7 +115,7 @@ export default function BalloonsScreen({ onNext }) {
 
         <motion.button
           onClick={onNext}
-          className={`bg-gradient-to-r from-pink-500 via-pink-600 to-red-500 hover:from-pink-600 hover:via-pink-700 hover:to-red-600 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-2xl flex items-center justify-center pointer-events-none animate-fadeInButton}`}
+          className="bg-gradient-to-r from-pink-500 via-pink-600 to-red-500 hover:from-pink-600 hover:via-pink-700 hover:to-red-600 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-2xl flex items-center justify-center pointer-events-none"
           style={{
             animation: "fadeInButton 1s ease forwards 3.5s"
           }}

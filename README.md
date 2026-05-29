@@ -1,60 +1,63 @@
-# ❤️ Proposal Website
+# Proposal Website
 
-Make your proposal unforgettable with this beautifully designed Proposal Website.
-With soft animations, heartfelt messages, and an elegant UI, this site turns a simple “I love you” into a magical and memorable experience. ✨
+A romantic proposal experience built with Next.js. The site combines soft animations, photo moments, and a playful flow to create a memorable surprise.
 
-> ⚠️ This is a **free version**, so some features like background music, some animations are not included. Premium version includes all features. If you want premium code then DM me on Instagram.
+## Features
 
----
+- Smooth animated screens and transitions
+- Background audio support
+- Photo gallery and final reveal
+- Responsive layout for desktop and mobile
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- ⚛️ **Next.js** – React Framework for building fast UI
-- 🎨 **Tailwind CSS** – For modern and responsive styling
-- 🎞️ **Motion** – Smooth entrance and fade animations
-- 🖼️ **Swiper.js** – For smooth image/cards slideshow
+- Next.js 15
+- React 19
+- Tailwind CSS 4
+- Motion
+- Swiper.js
 
----
-
-## 🖥 Local Setup
-
-To run this project locally, follow these steps:
+## Local Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/Anuj579/proposal-site.git
-
-# Navigate into the folder
+git clone <your-repo-url>
 cd proposal-site
-
-# Install dependencies
 npm install
-
-# Start the development server
 npm run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000) in your browser to explore the site.
+Open `http://localhost:3000` in your browser.
 
----
+## Build
 
-## 🔗 Social Media
+```bash
+npm run build
+npm start
+```
 
-Follow me for more emotional surprise websites and creative dev content:
+## Deploy to Vercel
 
-- 📷 Instagram: [@anujbuilds](https://instagram.com/anujbuilds)
-- 🎬 YouTube: [@anujbuilds](https://youtube.com/@anujbuilds)
-- 🐦 Twitter: [@anujbuilds](https://twitter.com/anujbuilds)
-- 💼 LinkedIn: [Anuj Chaudhary](https://linkedin.com/in/anujchaudhary549)
+1. Push the project to GitHub.
+2. Import the repository into Vercel.
+3. Keep the default Next.js settings.
+4. Deploy.
 
----
+The project already includes `vercel.json` and a valid Next.js app structure, so it is ready for Vercel deployment.
 
-## ⭐ Support
+## Project Structure
 
-If you found this project lovely, please consider giving it a ⭐ on [GitHub](https://github.com/Anuj579)  
-Thank you for being here! 🫶  
-Made with emotions by **Anuj** – _@anujbuilds_
+```text
+src/
+  app/
+  components/
+public/
+  audio/
+  gif/
+  images/
+```
 
-✨ If you'd like to support my work directly, you can donate via UPI:  
-**anujbuilds.wallet@phonepe**  
-Even a small contribution helps me keep creating cute, emotional projects 💖
+## Notes
+
+- The repository is set up as a private project.
+- Large media files are stored in `public/`.
+- If you change the app root or add another lockfile, update the deployment root accordingly.
